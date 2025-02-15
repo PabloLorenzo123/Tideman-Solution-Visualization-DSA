@@ -147,7 +147,7 @@ const TidemanSteps = ({ candidates, ballots }) => {
                                 {steps[stepIndex].title}
                             </div>
                             <div className="card-body">
-                                {stepIndex == 1 && <SelectionSortPairs unOrderedPairs={unOrderedPairs} candidates={candidates}/>}
+                                {stepIndex == 1 && <SelectionSortPairs unOrderedPairs={unOrderedPairs} candidates={candidates} />}
                                 <pre className="bg-light p-3 rounded border text-start">
                                     {steps[stepIndex].code}
                                 </pre>
