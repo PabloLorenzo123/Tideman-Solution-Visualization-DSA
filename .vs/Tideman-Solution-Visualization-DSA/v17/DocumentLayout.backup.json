@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\pages\\CreateElections.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\pages\\CreateElections.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\pages\\Home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\components\\CreateCandidates.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\components\\CreateCandidates.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\components\\createBallots.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tideman-visualization\\src\\components\\createBallots.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateElections.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\pages\\CreateElections.jsx",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\pages\\CreateElections.jsx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\pages\\CreateElections.jsx",
+              "RelativeToolTip": "tideman-visualization\\src\\pages\\CreateElections.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-15T02:26:47.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\App.jsx",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\App.jsx",
+              "RelativeToolTip": "tideman-visualization\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-15T02:11:40.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\index.html",
+              "RelativeDocumentMoniker": "tideman-visualization\\index.html",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\index.html",
+              "RelativeToolTip": "tideman-visualization\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-15T01:57:06.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\App.css",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\App.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\App.css",
+              "RelativeToolTip": "tideman-visualization\\src\\App.css",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-15T01:55:44.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\pages\\Home.jsx",
+              "RelativeToolTip": "tideman-visualization\\src\\pages\\Home.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-15T02:07:07.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\main.jsx",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\main.jsx",
+              "RelativeToolTip": "tideman-visualization\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-15T02:06:52.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateCandidates.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\components\\CreateCandidates.jsx",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\components\\CreateCandidates.jsx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\components\\CreateCandidates.jsx",
+              "RelativeToolTip": "tideman-visualization\\src\\components\\CreateCandidates.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-15T02:07:34.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\index.css",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\index.css",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\index.css",
+              "RelativeToolTip": "tideman-visualization\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-15T02:06:49.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "createBallots.jsx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\components\\createBallots.jsx",
+              "RelativeDocumentMoniker": "tideman-visualization\\src\\components\\createBallots.jsx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Tideman-Solution-Visualization-DSA\\tideman-visualization\\src\\components\\createBallots.jsx",
+              "RelativeToolTip": "tideman-visualization\\src\\components\\createBallots.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-15T02:07:31.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
