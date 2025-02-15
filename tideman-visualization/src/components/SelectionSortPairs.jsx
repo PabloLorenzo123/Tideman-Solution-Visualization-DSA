@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Button, Table, Container } from "react-bootstrap";
 
-const SelectionSortPairs = ({unOrderedPairs, candidates}) => {
+const SelectionSortPairs = ({ unOrderedPairs, candidates }) => {
   // Initial array of pairs
-  console.log(unOrderedPairs)
-  const [pairs, setPairs] = useState(unOrderedPairs.map(obj => Object.values(obj)));
+  console.log(unOrderedPairs);
+  const [pairs, setPairs] = useState(
+    unOrderedPairs.map((obj) => Object.values(obj))
+  );
 
   const [steps, setSteps] = useState([]); // Store sorting steps
   const [currentStep, setCurrentStep] = useState(0);
@@ -53,8 +55,10 @@ const SelectionSortPairs = ({unOrderedPairs, candidates}) => {
 
   return (
     <Container className="mt-4">
-      <h3 className="mb-3">Selection Sort Animación (De forma descendendiente)</h3>
-      
+      <h3 className="mb-3">
+        Selection Sort Animación (De forma descendendiente)
+      </h3>
+
       <Table striped bordered hover>
         <thead>
           <tr>
@@ -67,16 +71,24 @@ const SelectionSortPairs = ({unOrderedPairs, candidates}) => {
           {pairs.map((pair, index) => (
             <tr key={index}>
               <td>{index + 1}</td>
-              <td>{candidates[pair[0]].name} vence a {candidates[pair[1]].name}</td>
+              <td>
+                {candidates[pair[0]].name} vence a {candidates[pair[1]].name}
+              </td>
               <td>{getDifference(pair)}</td>
             </tr>
           ))}
         </tbody>
       </Table>
 
-      <div className="d-flex gap-2">
-        <Button variant="primary" onClick={startSorting}>Empezar ordenamiento</Button>
-        <Button variant="success" onClick={nextStep} disabled={currentStep >= steps.length - 1}>
+      <div className="d-flex gap-2 mb-3">
+        <Button variant="primary" onClick={startSorting}>
+          Empezar ordenamiento
+        </Button>
+        <Button
+          variant="success"
+          onClick={nextStep}
+          disabled={currentStep >= steps.length - 1}
+        >
           Paso {currentStep + 1}/{steps.length}
         </Button>
       </div>
