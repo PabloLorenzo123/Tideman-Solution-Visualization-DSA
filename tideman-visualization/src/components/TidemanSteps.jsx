@@ -117,9 +117,8 @@ const TidemanSteps = ({ candidates, ballots }) => {
         setUnOrderedPairs(pairs);
         const sortedPairs = sortPairs(pairs);
         const lockedGraph = lockPairs(sortedPairs, cleanedCandidates);
-        const winner = findWinner(lockedGraph, cleanedCandidates);
-        console.log(winner);
-        setWinner(candidates.find(c => c.name == winner));
+        const winnerName = findWinner(lockedGraph, cleanedCandidates);
+        setWinner(candidates.find(c => c.name == winnerName));
     }, [])
 
 
@@ -182,12 +181,12 @@ const TidemanSteps = ({ candidates, ballots }) => {
                             <h2 className="display-4 text-primary font-weight-bold">{winner.name}</h2>
 
                             {/* Conditionally display the candidate's photo */}
-                            {winner.photoUrl ? (
+                            {winner.photo ? (
                                 <img
-                                    src={winner.photoUrl}
+                                    src={winner.photo}
                                     alt={winner.name}
-                                    className="img-fluid rounded-circle mt-3"
-                                    style={{ maxWidth: '200px', maxHeight: '200px' }}
+                                    className="img-fluid mt-3"
+                                    style={{ maxWidth: '500px', maxHeight: '500px' }}
                                 />
                             ) : (
                                 <div className="mt-3">
