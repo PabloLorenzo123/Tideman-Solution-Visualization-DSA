@@ -26,7 +26,7 @@ const BallotDisplay = ({ ballots, setStep}) => {
         </div>
 
         {/* Next step button */}
-        <button className="btn btn-primary" onClick={setStep('show_algorithm')}>Siguiente</button>
+        <button className="btn btn-primary" onClick={() => setStep('show_algorithm')}>Siguiente</button>
         </>
     );
 };

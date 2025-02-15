@@ -64,6 +64,7 @@ function CreateCandidatesAndBallots({ candidates, setCandidates, ballots, setBal
                             placeholder="Nombre del candidato"
                             value={candidateName}
                             onChange={(e) => setCandidateName(e.target.value)}
+                            autoComplete="off"
                             required
                         />
                     </div>
@@ -75,6 +76,7 @@ function CreateCandidatesAndBallots({ candidates, setCandidates, ballots, setBal
                             id="photoUrl"
                             placeholder="Enter photo URL"
                             value={candidatePhoto}
+                            autoComplete="off"
                             onChange={(e) => setCandidatePhoto(e.target.value)}
 
                         />
