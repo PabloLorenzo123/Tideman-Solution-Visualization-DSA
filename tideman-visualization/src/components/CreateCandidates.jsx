@@ -55,7 +55,7 @@ function CreateCandidatesAndBallots({
 
   return (
     <div className="container mt-5" style={{ width: "50%" }}>
-      <div className="card p-4 shadow-lg">
+      <div className="card p-4 shadow-lg mt-5">
         <h2 className="mb-4">Candidato #{candidates.length + 1}</h2>
         <form onSubmit={addCandidate}>
           <div className="mb-3">
