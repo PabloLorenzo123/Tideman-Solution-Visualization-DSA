@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CreateCandidatesAndBallots from '../components/CreateCandidates';
-import CreateBallots from '../components/createBallots';
+import CreateBallots from '../components/SelectionSortPairs';
 import BallotDisplay from '../components/BallotsDisplay';
 import TidemanSteps from '../components/TidemanSteps';
 

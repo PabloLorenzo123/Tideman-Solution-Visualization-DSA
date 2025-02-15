@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 import { Button, Table, Container } from "react-bootstrap";
 
-const CreateBallot = () => {
+const SelectionSortPairs = ({unOrderedPairs, candidates}) => {
   // Initial array of pairs
-  const [pairs, setPairs] = useState([
-    [3, 10],
-    [7, 2],
-    [15, 8],
-    [5, 1],
-    [20, 4],
-  ]);
+  console.log(unOrderedPairs)
+  const [pairs, setPairs] = useState(unOrderedPairs.map(obj => Object.values(obj)));
 
   const [steps, setSteps] = useState([]); // Store sorting steps
   const [currentStep, setCurrentStep] = useState(0);
@@ -58,21 +53,21 @@ const CreateBallot = () => {
 
   return (
     <Container className="mt-4">
-      <h3 className="mb-3">Selection Sort Animation (Descending by Difference)</h3>
+      <h3 className="mb-3">Selection Sort Animación (De forma descendendiente)</h3>
       
       <Table striped bordered hover>
         <thead>
           <tr>
             <th>#</th>
-            <th>Pair</th>
-            <th>Difference</th>
+            <th>Par</th>
+            <th>Diferencia</th>
           </tr>
         </thead>
         <tbody>
           {pairs.map((pair, index) => (
             <tr key={index}>
               <td>{index + 1}</td>
-              <td>[{pair[0]}, {pair[1]}]</td>
+              <td>{candidates[pair[0]].name} vence a {candidates[pair[1]].name}</td>
               <td>{getDifference(pair)}</td>
             </tr>
           ))}
@@ -80,13 +75,13 @@ const CreateBallot = () => {
       </Table>
 
       <div className="d-flex gap-2">
-        <Button variant="primary" onClick={startSorting}>Start Sorting</Button>
+        <Button variant="primary" onClick={startSorting}>Empezar ordenamiento</Button>
         <Button variant="success" onClick={nextStep} disabled={currentStep >= steps.length - 1}>
-          Step {currentStep + 1}/{steps.length}
+          Paso {currentStep + 1}/{steps.length}
         </Button>
       </div>
     </Container>
   );
 };
 
-export default CreateBallot;
+export default SelectionSortPairs;

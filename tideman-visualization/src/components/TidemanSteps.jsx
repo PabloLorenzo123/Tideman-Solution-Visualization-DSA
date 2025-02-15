@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { createPairs, findWinner, lockPairs, sortPairs, tallyVotes } from "../tideman";
+import SelectionSortPairs from './SelectionSortPairs';
 
 const steps = [
     {
@@ -82,7 +83,7 @@ const steps = [
 
 const TidemanSteps = ({ candidates, ballots }) => {
     const [stepIndex, setStepIndex] = useState(0);
-    const [unOrderedPairs, setUnOrderedPairs] = useState([]);
+    const [unOrderedPairs, setUnOrderedPairs] = useState(null);
 
     const [winner, setWinner] = useState(null)
     const [showWinner, setShowWinner] = useState(false);
@@ -147,6 +148,7 @@ const TidemanSteps = ({ candidates, ballots }) => {
                                 {steps[stepIndex].title}
                             </div>
                             <div className="card-body">
+                                {stepIndex == 1 && <SelectionSortPairs unOrderedPairs={unOrderedPairs} candidates={candidates}/>}
                                 <pre className="bg-light p-3 rounded border text-start">
                                     {steps[stepIndex].code}
                                 </pre>
