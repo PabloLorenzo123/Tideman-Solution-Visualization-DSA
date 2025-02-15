@@ -1,29 +1,57 @@
 import React, { useState } from 'react'
+import { MAX_CANDIDATES, MIN_CANDIDATES } from '../constants';
 
-function CreateCandidates({ candidates, setCandidates }) {
+function CreateCandidatesAndBallots({ candidates, setCandidates, ballots, setBallots, voters, setStep}) {
+
+   
 
     const [candidateName, setCandidateName] = useState('');
     const [candidatePhoto, setCandidatePhoto] = useState('');
 
-  
+
 
     const addCandidate = (e) => {
         e.preventDefault();
 
-        setCandidates(prev => [
-            ...prev,
-            {
-                name: candidateName,
-                photo: candidatePhoto,
+        setCandidates(prev => {
+            let newName = candidateName;
+            let count = 1;
+
+            // Check for existing candidates with the same name
+            const existingNames = prev.map(c => c.name);
+            while (existingNames.includes(newName)) {
+                count++;
+                newName = `${candidateName} (${count})`;
             }
-        ])
+
+            return [
+                ...prev,
+                {
+                    name: newName,
+                    photo: candidatePhoto,
+                }
+            ];
+        });
+
         // Clear the fields.
         setCandidateName('');
         setCandidatePhoto('');
-    }
+    };
+
+    const generateRandomBallot = (candidates) => {
+        const shuffledCandidates = [...candidates].sort(() => Math.random() - 0.5);
+        return shuffledCandidates;
+    };
+    
+    const generateBallots = () => {
+        const newBallots = Array.from({ length: voters }, () => generateRandomBallot(candidates));
+        setBallots(newBallots);
+        setStep('show_ballots');
+    };
 
     return (
-        <div className="container mt-5" style={{ width: '70%' }}>
+        <div className="container mt-5" style={{ width: '50%' }}>
+            
             <div className="card p-4 shadow-lg">
                 <h2 className="mb-4">Candidato #{candidates.length + 1}</h2>
                 <form onSubmit={addCandidate}>
@@ -54,11 +82,11 @@ function CreateCandidates({ candidates, setCandidates }) {
                     <button
                         type="submit"
                         className="btn btn-primary me-2"
-                        disabled={!candidateName}
+                        disabled={!candidateName || candidates.length >= MAX_CANDIDATES}
                     >
                         Agregar
                     </button>
-                    <button type="button" className='btn btn-secondary' disabled={!candidates}>
+                    <button type="button" className='btn btn-secondary' disabled={candidates.length < MIN_CANDIDATES || !voters} onClick={generateBallots}>
                         Listo
                     </button>
                 </form>
@@ -67,4 +95,4 @@ function CreateCandidates({ candidates, setCandidates }) {
     )
 }
 
-export default CreateCandidates;
+export default CreateCandidatesAndBallots;
